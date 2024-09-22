@@ -40,5 +40,4 @@ min_length = int(input("Enter the minimum length of the password you want to gen
 has_number = input("Do you want to have numbers in your password? (yes/no)").lower() == "yes"
 has_special = input("Do you want to have special characters in your password? (yes/no)").lower() == "yes"
 pwd = generate_password(min_length, has_number, has_special)
-print("the generated password is:", pwd) 
-#testing
+print("the generated password is:", pwd)
